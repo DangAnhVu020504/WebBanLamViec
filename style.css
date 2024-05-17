@@ -1,0 +1,181 @@
+            body {
+              margin: 0;
+              padding: 0;
+              font-family: Arial, sans-serif;
+              background-image: url("https://toigingiuvedep.vn/wp-content/uploads/2022/05/phong-nen-go-dep.jpg");
+              background-size: contain;
+              background-position: center;
+              background-attachment: fixed; 
+            }
+            
+            .header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                background-color: #333;
+                color: #fff;
+                padding: 10px 0;
+                height: 60px;
+            }
+
+            .footer {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                background-color: #333;
+                color: #fff;
+                padding: 10px 0;
+            }
+
+            .menu {
+                background-color: #efefef;
+            }
+            
+            .menu ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            
+            .menu ul li {
+                float: left;
+            }
+            
+            .menu ul li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            .search-button {
+                background-color: transparent;
+                border: none;
+            }
+
+            .search-button img {
+                width: 25px;
+                height: auto;
+            }
+
+            .carousel{
+                display: flex;
+                justify-content: flex-start;
+            }
+
+            .carousel img {
+                flex: 1 0 25%;
+                max-width: 33%;
+            }
+
+            .document{
+                text-align: left;
+                padding: auto;
+                border: 3px solid #000000;
+                border-radius: 10px;
+                background-color: rgba(255, 255, 255, 0.6);
+                padding-left: 20px;
+                
+            }
+
+            .product-menu {
+                position: fixed;    
+                top: 80px;
+                left: 0;
+                width: 200px;
+                height: calc(100% - 100px);
+                overflow-y: auto;  
+            }
+
+            .product-menu li {
+                color: #000; 
+                font-weight: bold;
+            }
+
+            .product-menu ul {
+                list-style-type: none; /* Loại bỏ dấu gạch đầu dòng */
+                padding: 0; /* Loại bỏ padding mặc định */
+                margin: 0; /* Loại bỏ margin mặc định */
+            }
+
+            /* CSS cho từng mục danh sách trong .product-menu */
+            .product-menu ul li {
+                border: 1px solid #000; /* Đặt khung cho mỗi mục danh sách */
+                padding: 10px; /* Đặt padding cho nội dung trong mỗi mục danh sách */
+                margin-bottom: 5px; /* Tạo khoảng trống giữa các mục danh sách */
+                border-radius: 5px; /* Tạo góc bo cho khung */
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Thêm hiệu ứng bóng đổ cho khung */
+                transition: background-color 0.3s; /* Hiệu ứng chuyển đổi màu nền */
+            }
+
+            .product-menu ul li:hover {
+                background-color: #f0f0f0; /* Màu nền khi di chuột qua */
+            }
+
+            /* CSS cho các liên kết trong mục danh sách */
+            .product-menu ul li a {
+                text-decoration: none; /* Loại bỏ gạch chân */
+                color: #000; /* Màu sắc của văn bản */
+                display: block; /* Hiển thị liên kết như một khối */
+                width: 100%; /* Chiếm toàn bộ chiều rộng của mục danh sách */
+                height: 100%;
+            }
+
+            .container {
+                margin-left: 250px;
+            }
+
+            .zalo-icon {
+                position: fixed;
+                bottom: 50px; 
+                right: 30px; 
+                width: 90px; 
+                height: 90px; 
+                background-image: url('https://bathong.com.vn/public/images/icon-zalo.png'); 
+                background-size: cover;
+                border-radius: 50%; 
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+                z-index: 999; 
+                animation: zalo-shake 0.3s infinite alternate; 
+            }
+
+            @keyframes zalo-shake {
+                from { transform: rotate(0deg); }
+                to { transform: rotate(40deg); } 
+            }
+
+            .container p {
+                text-align: left;
+            }
+
+            .container li {
+                list-style: none;
+            } 
+
+            .buy-now{
+                padding: 10px 20px; 
+                background-color: #ff0000b5; 
+                color: #fff; 
+                border: none; 
+                cursor: pointer;    
+            }
+
+            .add-cart{
+                padding: 10px 20px; 
+                background-color: #22b81c; 
+                color: #fff; 
+                border: none; 
+                cursor: pointer;
+            } 
+
+            .installment{
+                padding: 10px 20px; 
+                background-color: #2723dc; 
+                color: #fff; 
+                border: none; 
+                cursor: pointer; 
+            }
